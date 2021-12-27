@@ -71,7 +71,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Running](Images/ElkContainerRunning.png)
+![Running](https://github.com/TCGill2004/Elk-Stack-Project/blob/main/Images/ElkContainerRunning.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -103,6 +103,6 @@ Use the [hosts.yml](hosts.yml) template to assign machines on your network to gr
 ![Hosts](Completed-hosts.PNG)
 - _Which URL do you navigate to in order to check that the ELK server is running?
 Navigate to (Public_IP):5601/app/kibana in order to confirm that your Elk Server is running.  If everything is working properly, your browser should display the following web page:
-![Kibana](Images/KibanaRunningOnElkServer)
+![Kibana](https://github.com/TCGill2004/Elk-Stack-Project/blob/main/Images/KibanaRunningOnElkServer.PNG)
 
 
