@@ -102,7 +102,9 @@ The [install-elk.yml](https://github.com/TCGill2004/Elk-Stack-Project/blob/main/
 Use the [hosts.yml](hosts.yml) template to assign machines on your network to groups according to their designated function.  Webservers should be assigned to the "webservers" group and the machine that will serve as your Elk server should be assigned to the "Elk" group.  Machines can be added to groups by simply entering their IP address under the appropriate header followed by 'ansible_python_interpreter=/usr/bin/python3'.  This will ensure Python support for every machine on your network.  Your completed hosts.yml file should look something like this:
 
 ![Hosts](Completed-hosts.PNG)
+
 - _Which URL do you navigate to in order to check that the ELK server is running?
+
 Navigate to (Public_IP):5601/app/kibana in order to confirm that your Elk Server is running.  If everything is working properly, your browser should display the following web page:
 
 ![Kibana](https://github.com/TCGill2004/Elk-Stack-Project/blob/main/Images/KibanaRunningOnElkServer.PNG)
