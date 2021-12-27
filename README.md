@@ -103,7 +103,7 @@ Use the [hosts.yml](hosts.yml) template to assign machines on your network to gr
 
 ![Hosts](Completed-hosts.PNG)
 
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- _Which URL do you navigate to in order to check that the ELK server is running?_
 
 Navigate to (Public_IP):5601/app/kibana in order to confirm that your Elk Server is running.  If everything is working properly, your browser should display the following web page:
 
